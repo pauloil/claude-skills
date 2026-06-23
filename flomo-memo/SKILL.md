@@ -27,6 +27,8 @@ Always add at least one tag. Tags go inline in the memo content using `#tag` syn
 |---|---|
 | `#cs` | CS knowledge: algorithms, systems, tools, code concepts, programming languages |
 | `#language` | **Natural language study only** — English, Japanese, etc. Programming language notes → `#cs` |
+| `#language/english` | English vocabulary, sentences, grammar notes |
+| `#language/japanese` | Japanese vocabulary, phrases, kanji notes |
 | `#private` | Personal notes not meant to be shared |
 | `#private/chenzhiqiang` | Account credentials, login info, API tokens, system access |
 | `#private/clinic` | Medical info — clinic addresses, treatments, medications, health checkups |
@@ -38,6 +40,9 @@ Always add at least one tag. Tags go inline in the memo content using `#tag` syn
 | `#work` | Any professional/work-related content — use as parent tag for all job-related memos |
 | `#work/rakuten` | Rakuten-specific work content — nested under `#work` |
 | `#reading` | Book notes, article summaries, quotes worth keeping |
+| `#reading/books` | Notes and excerpts from books. Sub-tag by title e.g. `#reading/books/百年孤独` |
+| `#reading/mindset` | Psychology, thinking frameworks, cognitive concepts from reading |
+| `#reading/quote` | Standalone quotes worth keeping, from any source |
 | `#workflow` | Repeatable processes, personal rules, how-to notes for recurring tasks |
 | `#journal` | Diary entries, personal reflections, daily logs (replaces `#writing` for clarity) |
 
@@ -52,8 +57,12 @@ Is it a personal file/download link?  → #private/resources
 Is it a restaurant/food rec in Japan? → #private/グルメ
 Is it other personal life info?       → #private/life
 Is it a diary/daily reflection?       → #journal
-Is it about natural language study?   → #language
+Is it English vocabulary/grammar?     → #language/english
+Is it Japanese vocabulary/phrases?   → #language/japanese
 Is it CS/programming knowledge?       → #cs
+Is it a quote worth keeping?          → #reading/quote
+Is it notes from a specific book?     → #reading/books/<book-title>
+Is it a mindset/thinking concept?     → #reading/mindset
 Is it any work-related content?       → #work
 Is it specifically Rakuten-related?   → #work/rakuten
 Is it a work process/rule?            → #work/rakuten #workflow
