@@ -29,6 +29,12 @@ Always add at least one tag. Tags go inline in the memo content using `#tag` syn
 | `#language` | **Natural language study only** — English, Japanese, etc. Programming language notes → `#cs` |
 | `#private` | Personal notes not meant to be shared |
 | `#private/chenzhiqiang` | Account credentials, login info, API tokens, system access |
+| `#private/clinic` | Medical info — clinic addresses, treatments, medications, health checkups |
+| `#private/life` | Personal life notes — home appliances, daily living, household info |
+| `#private/resources` | Personal files and shared resources — Baidu pan links, download codes, shared docs |
+| `#private/travel` | Travel info — airline accounts, bookings, destination guides. Sub-tag by country e.g. `#private/travel/thailand` |
+| `#private/visa` | Visa application requirements, procedures, documents checklist |
+| `#private/グルメ` | Restaurant and food recommendations (mainly Japan) |
 | `#work` | Any professional/work-related content — use as parent tag for all job-related memos |
 | `#work/rakuten` | Rakuten-specific work content — nested under `#work` |
 | `#reading` | Book notes, article summaries, quotes worth keeping |
@@ -39,6 +45,12 @@ Always add at least one tag. Tags go inline in the memo content using `#tag` syn
 
 ```
 Is it a credential or account?        → #private/chenzhiqiang
+Is it medical/clinic/health info?     → #private/clinic
+Is it a visa application/procedure?   → #private/visa
+Is it travel info or booking?         → #private/travel (or #private/travel/<country>)
+Is it a personal file/download link?  → #private/resources
+Is it a restaurant/food rec in Japan? → #private/グルメ
+Is it other personal life info?       → #private/life
 Is it a diary/daily reflection?       → #journal
 Is it about natural language study?   → #language
 Is it CS/programming knowledge?       → #cs
